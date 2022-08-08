@@ -1,15 +1,7 @@
 name: cookiecutter-personal
 channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - cookiecutter=1.7.3
-prefix: C:\Users\j_raf\.conda\envs\cookiecutter-personal
-# conda env create --file environment.yml
-name: cookiecutter-personal-platzi
-channels:
   - anaconda
   - conda-forge
   - defaults
 dependencies:
-  - cookiecutter
+  - cookiecutter=1.7.3
